@@ -1,0 +1,8 @@
+synthea_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /Users/camarenrogers/synthea-pipeline/synthea.duckdb
+      schema: main
+      threads: 4
